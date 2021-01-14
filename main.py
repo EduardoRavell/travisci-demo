@@ -6,9 +6,10 @@ app.config['BASIC_AUTH_USERNAME'] = 'travisci'
 app.config['BASIC_AUTH_PASSWORD'] = 'tutorial'
 basic_auth = BasicAuth(app)
 
+
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Hello World Eduardo!"
 
 @app.route('/multiply')
 def multiply():
